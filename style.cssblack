@@ -1,0 +1,47 @@
+.product-details 
+
+ 
+    
+} 
+.product-detail > section {
+    position: relative;
+    background: orange; 
+    height:100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    white-space: nowrap;
+    
+        
+} 
+.product-detail > section > h1 {
+    
+}
+    
+.product-detail > section > .photo-gallery{
+        
+}
+.product-detail > section > photo-gallery > .primary-photo {
+    
+        
+}
+.product-detail > section > photo-gallery > img {
+        
+}
+.product-detail > section > h2{
+        
+}
+.product-detail > section > p {
+        
+}
+.product-detail > section > form {
+        
+}
+.product-detail > section > form > label > input {
+        
+}
+.product-detail > section > a {
+        
+}
+    

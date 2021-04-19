@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<title>Page Title</title>
+  <link rel="stylesheet" href="/style.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Jockey+One&display=swap" rel="stylesheet">
+<body>
+
+    
+    <div class="product-details">
+        <section>
+            <hgroup>
+                <h1>Dirty Work Shirt</h1>
+            </hgroup>
+            <div class="photo-gallery">
+                <div class="primary-photo" style="background-image: url(/images/RedShirt.png)">
+                </div>
+                <img src="/images/RedShirt.png">
+                <img src="/images/blackshirt.png">
+                <img src="/images/navyshirt.png">
+                <img src="/images/maroonshirt.png">
+            </div>
+
+        </section>
+        <section>
+            <hgroup>
+                <h2>$25</h2>
+            </hgroup>
+             <p>Long Sleeve shirt, comes in,Black,White,Red,and Navy
+            </p>
+            <form>
+                <label>
+                    <input type="radio" name="size" value="small">
+                    Small
+                </label>
+                <label>
+                    <input type="radio" name="size" value="medium">
+                    Medium
+                </label>
+                <label>
+                    <input type="radio" name="size" value="large">
+                    Large
+                </label>
+                <a class="button">add to cart
+                </a>
+            </form>
+        </section>
+    </div>
+    
+    <script type="text/javascript">
+        $( ".photo-gallery > img" ).click(function() {
+        var imgSrc= $(this).attr("src");
+        $('.primary-photo').attr('style',"background-image: url("+imgSrc+");");
+        });
+    </script>
+</body>
+</html>
